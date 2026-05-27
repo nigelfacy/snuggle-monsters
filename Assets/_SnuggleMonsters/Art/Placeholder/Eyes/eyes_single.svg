@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .stroke { stroke: #000000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- One giant circular eye centred -->
+  <circle cx="100" cy="100" r="50" fill="#FFFFFF" class="stroke"/>
+  <!-- Green iris ring -->
+  <circle cx="100" cy="100" r="28" fill="#00E5FF" class="stroke"/>
+  <!-- Big black circular pupil -->
+  <circle cx="100" cy="100" r="18" fill="#000000"/>
+  <!-- White highlight dot -->
+  <circle cx="92" cy="90" r="7" fill="#FFFFFF"/>
+  <!-- Single bold eyebrow -->
+  <path d="M 55 45 L 145 45" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+</svg>

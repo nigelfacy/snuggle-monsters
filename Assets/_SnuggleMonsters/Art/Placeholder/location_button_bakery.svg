@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Button Bakery - cute bakery storefront with button biscuits -->
+  <!-- Building body -->
+  <rect x="20" y="40" width="160" height="150" rx="12" fill="#FFEAA7" stroke="#000000" stroke-width="3"/>
+  <!-- Awning on top -->
+  <path d="M15,45 L185,45 L180,75 L20,75 Z" fill="#FF6B6B" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Awning stripes -->
+  <path d="M50,45 L45,75" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M85,45 L80,75" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M120,45 L115,75" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M155,45 L150,75" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- Awning zigzag bottom -->
+  <path d="M20,75 L30,68 L40,75 L50,68 L60,75 L70,68 L80,75 L90,68 L100,75 L110,68 L120,75 L130,68 L140,75 L150,68 L160,75 L170,68 L180,75" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Rounded/arched window -->
+  <path d="M40,70 L40,140 C40,155 60,165 80,165 C100,165 120,155 120,140 L120,70 Z" fill="#87CEEB" stroke="#000000" stroke-width="3"/>
+  <!-- Window pane lines -->
+  <line x1="80" y1="70" x2="80" y2="165" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="120" x2="120" y2="120" stroke="#000000" stroke-width="2"/>
+  <!-- Button biscuits on tray inside window -->
+  <!-- Tray -->
+  <rect x="50" y="135" width="60" height="8" rx="3" fill="#D4A574" stroke="#000000" stroke-width="2"/>
+  <!-- Button biscuit 1 -->
+  <circle cx="62" cy="130" r="7" fill="#FF6B6B" stroke="#000000" stroke-width="2"/>
+  <circle cx="62" cy="130" r="2" fill="#FF4444" stroke="#000000" stroke-width="1"/>
+  <!-- Button biscuit 2 -->
+  <circle cx="80" cy="128" r="8" fill="#FFD93D" stroke="#000000" stroke-width="2"/>
+  <circle cx="80" cy="128" r="2.5" fill="#FFAA00" stroke="#000000" stroke-width="1"/>
+  <!-- Button biscuit 3 -->
+  <circle cx="98" cy="130" r="7" fill="#51CF66" stroke="#000000" stroke-width="2"/>
+  <circle cx="98" cy="130" r="2" fill="#2ECC71" stroke="#000000" stroke-width="1"/>
+  <!-- Small dots on tray -->
+  <circle cx="70" cy="140" r="1.5" fill="#8B6914"/>
+  <circle cx="88" cy="140" r="1.5" fill="#8B6914"/>
+  <!-- Tiny baker monster silhouette -->
+  <!-- Body -->
+  <ellipse cx="80" cy="105" rx="10" ry="12" fill="#A855F7" stroke="#000000" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="80" cy="92" r="8" fill="#A855F7" stroke="#000000" stroke-width="2"/>
+  <!-- Chef hat -->
+  <path d="M73,86 C73,78 79,74 80,74 C81,74 87,78 87,86" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <rect x="73" y="86" width="14" height="3" rx="1" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <!-- Eyes -->
+  <circle cx="77" cy="90" r="1.5" fill="#FFFFFF"/>
+  <circle cx="83" cy="90" r="1.5" fill="#FFFFFF"/>
+  <!-- Arms holding tray -->
+  <path d="M70,105 L55,115" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M90,105 L105,115" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Door -->
+  <rect x="145" y="120" width="28" height="70" rx="8" fill="#8B4513" stroke="#000000" stroke-width="3"/>
+  <circle cx="166" cy="155" r="3" fill="#FFD700" stroke="#000000" stroke-width="1.5"/>
+  <!-- Sign above window -->
+  <rect x="55" y="60" width="50" height="14" rx="4" fill="#FF69B4" stroke="#000000" stroke-width="2"/>
+  <text x="80" y="71" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">BAKERY</text>
+</svg>

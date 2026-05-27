@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Bowtie - Big floppy hot pink bow tie -->
+  <!-- Left loop -->
+  <path d="M100,100 L40,55 C35,50 25,55 30,65 L50,100 L30,135 C25,145 35,150 40,145 L100,100 Z" fill="#FF69B4" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Right loop -->
+  <path d="M100,100 L160,55 C165,50 175,55 170,65 L150,100 L170,135 C175,145 165,150 160,145 L100,100 Z" fill="#FF69B4" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Centre knot -->
+  <ellipse cx="100" cy="100" rx="15" ry="18" fill="#FF1493" stroke="#000000" stroke-width="3"/>
+  <!-- Wrinkle/crease lines on left -->
+  <path d="M70,72 L80,88" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+  <path d="M65,85 L78,95" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+  <path d="M70,128 L80,112" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+  <path d="M65,115 L78,105" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+  <!-- Wrinkle/crease lines on right -->
+  <path d="M130,72 L120,88" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+  <path d="M135,85 L122,95" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+  <path d="M130,128 L120,112" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+  <path d="M135,115 L122,105" fill="none" stroke="#FF1493" stroke-width="2" stroke-linecap="round"/>
+</svg>

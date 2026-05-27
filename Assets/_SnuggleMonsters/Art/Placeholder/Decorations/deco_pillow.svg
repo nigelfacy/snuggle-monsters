@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Large heart-shaped pillow - hot pink with lavender inner heart -->
+  <!-- Outer heart (pillow shape) -->
+  <path d="M100,175 C100,175 20,120 20,75 C20,40 50,20 80,30 C90,34 96,42 100,50 C104,42 110,34 120,30 C150,20 180,40 180,75 C180,120 100,175 100,175 Z" fill="#FF1493" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Inner heart -->
+  <path d="M100,155 C100,155 40,110 40,78 C40,52 62,38 82,45 C90,48 96,54 100,60 C104,54 110,48 118,45 C138,38 160,52 160,78 C160,110 100,155 100,155 Z" fill="#E8B4F8" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Puff/stitching lines around outer edge -->
+  <path d="M100,168 C105,166 115,156 125,148" fill="none" stroke="#FF69B4" stroke-width="2" stroke-dasharray="5,4" stroke-linecap="round"/>
+  <path d="M40,82 C35,70 38,55 48,44" fill="none" stroke="#FF69B4" stroke-width="2" stroke-dasharray="5,4" stroke-linecap="round"/>
+  <path d="M160,82 C165,70 162,55 152,44" fill="none" stroke="#FF69B4" stroke-width="2" stroke-dasharray="5,4" stroke-linecap="round"/>
+  <!-- Shine highlights -->
+  <ellipse cx="70" cy="70" rx="10" ry="6" fill="rgba(255,255,255,0.3)" transform="rotate(-20,70,70)"/>
+  <ellipse cx="55" cy="90" rx="6" ry="3" fill="rgba(255,255,255,0.2)" transform="rotate(-10,55,90)"/>
+  <!-- Little button detail in centre -->
+  <circle cx="100" cy="100" r="5" fill="#FF69B4" stroke="#000000" stroke-width="2"/>
+  <line x1="98" y1="98" x2="102" y2="102" stroke="#000000" stroke-width="1.5"/>
+  <line x1="102" y1="98" x2="98" y2="102" stroke="#000000" stroke-width="1.5"/>
+</svg>

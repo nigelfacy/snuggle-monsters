@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Top Hat - Purple with hot pink band, slightly tilted -->
+  <g transform="rotate(-8, 100, 100)">
+    <!-- Brim -->
+    <ellipse cx="100" cy="140" rx="75" ry="16" fill="#9B59B6" stroke="#000000" stroke-width="3"/>
+    <!-- Crown (cylinder body) -->
+    <rect x="60" y="50" width="80" height="90" rx="4" fill="#9B59B6" stroke="#000000" stroke-width="3"/>
+    <!-- Hot pink band -->
+    <rect x="60" y="110" width="80" height="14" fill="#FF6B9D" stroke="#000000" stroke-width="3"/>
+    <!-- Top of crown -->
+    <ellipse cx="100" cy="50" rx="40" ry="10" fill="#B07CC6" stroke="#000000" stroke-width="3"/>
+  </g>
+</svg>

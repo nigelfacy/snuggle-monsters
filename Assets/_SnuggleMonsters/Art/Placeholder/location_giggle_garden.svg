@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Giggle Garden - cheerful garden scene with flowers and butterfly -->
+  <!-- Sky background -->
+  <rect x="0" y="0" width="200" height="200" rx="100" fill="#87CEEB" stroke="#000000" stroke-width="3"/>
+  <!-- Clouds -->
+  <path d="M30,40 C30,30 40,25 50,28 C55,18 70,18 75,28 C85,22 95,30 90,40 C95,48 85,55 75,52 L35,52 C25,52 20,45 30,40 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M130,30 C130,22 140,18 148,22 C152,14 165,14 170,22 C178,18 185,25 182,33 C186,40 178,45 170,42 L138,42 C130,42 126,36 130,30 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Ground -->
+  <path d="M0,140 C0,120 200,120 200,140 L200,200 L0,200 Z" fill="#51CF66" stroke="#000000" stroke-width="3"/>
+  <!-- Flower 1 - Red flower, left -->
+  <g>
+    <!-- Stem -->
+    <path d="M55,140 L55,95" fill="none" stroke="#2ECC71" stroke-width="4" stroke-linecap="round"/>
+    <!-- Leaves -->
+    <path d="M55,120 C45,115 40,110 45,105" fill="none" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55,110 C65,105 70,100 65,95" fill="none" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+    <!-- Petals -->
+    <circle cx="55" cy="80" r="15" fill="#FF6B6B" stroke="#000000" stroke-width="3"/>
+    <circle cx="42" cy="88" r="12" fill="#FF6B6B" stroke="#000000" stroke-width="3"/>
+    <circle cx="68" cy="88" r="12" fill="#FF6B6B" stroke="#000000" stroke-width="3"/>
+    <circle cx="48" cy="72" r="12" fill="#FF6B6B" stroke="#000000" stroke-width="3"/>
+    <circle cx="62" cy="72" r="12" fill="#FF6B6B" stroke="#000000" stroke-width="3"/>
+    <!-- Centre -->
+    <circle cx="55" cy="80" r="7" fill="#FFD700" stroke="#000000" stroke-width="2.5"/>
+    <!-- Smiley face -->
+    <circle cx="53" cy="78" r="2" fill="#333"/>
+    <circle cx="57" cy="78" r="2" fill="#333"/>
+    <path d="M53,82 Q55,84 57,82" fill="none" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Flower 2 - Purple flower, right -->
+  <g>
+    <path d="M140,145 L140,100" fill="none" stroke="#2ECC71" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,125 C150,120 155,115 150,110" fill="none" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="140" cy="85" r="15" fill="#A855F7" stroke="#000000" stroke-width="3"/>
+    <circle cx="127" cy="93" r="12" fill="#A855F7" stroke="#000000" stroke-width="3"/>
+    <circle cx="153" cy="93" r="12" fill="#A855F7" stroke="#000000" stroke-width="3"/>
+    <circle cx="133" cy="77" r="12" fill="#A855F7" stroke="#000000" stroke-width="3"/>
+    <circle cx="147" cy="77" r="12" fill="#A855F7" stroke="#000000" stroke-width="3"/>
+    <circle cx="140" cy="85" r="7" fill="#FFD700" stroke="#000000" stroke-width="2.5"/>
+    <circle cx="138" cy="83" r="2" fill="#333"/>
+    <circle cx="142" cy="83" r="2" fill="#333"/>
+    <path d="M138,87 Q140,89 142,87" fill="none" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Flower 3 - Yellow, centre -->
+  <g>
+    <path d="M100,150 L100,110" fill="none" stroke="#2ECC71" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="100" cy="100" r="12" fill="#FFD93D" stroke="#000000" stroke-width="3"/>
+    <circle cx="90" cy="105" r="10" fill="#FFD93D" stroke="#000000" stroke-width="3"/>
+    <circle cx="110" cy="105" r="10" fill="#FFD93D" stroke="#000000" stroke-width="3"/>
+    <circle cx="93" cy="94" r="10" fill="#FFD93D" stroke="#000000" stroke-width="3"/>
+    <circle cx="107" cy="94" r="10" fill="#FFD93D" stroke="#000000" stroke-width="3"/>
+    <circle cx="100" cy="100" r="6" fill="#FF6B6B" stroke="#000000" stroke-width="2"/>
+    <circle cx="98" cy="98" r="1.5" fill="#333"/>
+    <circle cx="102" cy="98" r="1.5" fill="#333"/>
+    <path d="M98,102 Q100,103 102,102" fill="none" stroke="#333" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  <!-- Butterfly -->
+  <g transform="translate(75, 60) rotate(-15)">
+    <ellipse cx="-8" cy="-3" rx="8" ry="5" fill="#FF69B4" stroke="#000000" stroke-width="2.5" transform="rotate(-20)"/>
+    <ellipse cx="8" cy="-3" rx="8" ry="5" fill="#FF69B4" stroke="#000000" stroke-width="2.5" transform="rotate(20)"/>
+    <ellipse cx="-6" cy="4" rx="6" ry="4" fill="#FF69B4" stroke="#000000" stroke-width="2.5" transform="rotate(10)"/>
+    <ellipse cx="6" cy="4" rx="6" ry="4" fill="#FF69B4" stroke="#000000" stroke-width="2.5" transform="rotate(-10)"/>
+    <ellipse cx="0" cy="0" rx="2" ry="4" fill="#333" stroke="#000000" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .stroke { stroke: #000000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- 5-pointed star body shape with rounded points -->
+  <path d="M 100 20 L 118 72 L 175 72 L 128 105 L 143 158 L 100 128 L 57 158 L 72 105 L 25 72 L 82 72 Z" fill="#FF4500" class="stroke" stroke-linejoin="round"/>
+  <!-- Round the points by adding circles at each tip -->
+  <circle cx="100" cy="20" r="10" fill="#FF4500" class="stroke"/>
+  <circle cx="175" cy="72" r="10" fill="#FF4500" class="stroke"/>
+  <circle cx="143" cy="158" r="10" fill="#FF4500" class="stroke"/>
+  <circle cx="57" cy="158" r="10" fill="#FF4500" class="stroke"/>
+  <circle cx="25" cy="72" r="10" fill="#FF4500" class="stroke"/>
+  <!-- Friendly face area in centre -->
+  <ellipse cx="100" cy="85" rx="25" ry="20" fill="#FFFFFF" class="stroke"/>
+  <!-- Smile -->
+  <path d="M 85 105 Q 100 120 115 105" fill="none" class="stroke"/>
+  <!-- Blush -->
+  <circle cx="75" cy="98" r="5" fill="#FF69B4" opacity="0.5"/>
+  <circle cx="125" cy="98" r="5" fill="#FF69B4" opacity="0.5"/>
+</svg>

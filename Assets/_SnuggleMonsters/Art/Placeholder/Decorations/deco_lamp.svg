@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Cute standing floor lamp with monster eye lampshade -->
+  <!-- Base -->
+  <ellipse cx="100" cy="185" rx="30" ry="8" fill="#6C5CE7" stroke="#000000" stroke-width="3"/>
+  <!-- Pole -->
+  <rect x="95" y="60" width="10" height="125" rx="4" fill="#A29BFE" stroke="#000000" stroke-width="3"/>
+  <!-- Pole accent ring -->
+  <ellipse cx="100" cy="120" rx="8" ry="3" fill="#6C5CE7" stroke="#000000" stroke-width="2"/>
+  <!-- Lampshade - monster eye shape -->
+  <path d="M50,60 C50,25 150,25 150,60 C150,80 130,85 100,85 C70,85 50,80 50,60 Z" fill="#FFEAA7" stroke="#000000" stroke-width="3"/>
+  <!-- Warm yellow glow inside -->
+  <ellipse cx="100" cy="62" rx="40" ry="15" fill="#FFD93D" opacity="0.6"/>
+  <!-- Monster eye - pupil -->
+  <ellipse cx="100" cy="55" rx="16" ry="12" fill="#2D3436" stroke="#000000" stroke-width="3"/>
+  <!-- Eye highlight -->
+  <circle cx="92" cy="50" r="5" fill="#FFFFFF" stroke="none"/>
+  <circle cx="108" cy="48" r="3" fill="#FFFFFF" stroke="none"/>
+  <!-- Eyelashes -->
+  <path d="M55,48 L48,38" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M65,42 L60,30" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M135,48 L142,38" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M125,42 L130,30" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+  <!-- Light beams -->
+  <path d="M60,80 L45,140" fill="none" stroke="#FFD93D" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  <path d="M140,80 L155,140" fill="none" stroke="#FFD93D" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+</svg>

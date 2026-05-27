@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Party Hat - Classic pointed cone with rainbow stripes and pom-pom -->
+  <g transform="rotate(-5, 100, 100)">
+    <!-- Cone body -->
+    <polygon points="100,15 20,160 180,160" fill="#FF6B6B" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Rainbow stripes -->
+    <!-- Red top -->
+    <polygon points="30,140 100,15 170,140 180,160 20,160" fill="#FF6B6B" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Orange stripe -->
+    <polygon points="35,115 100,35 165,115 170,140 100,15 30,140" fill="#FFA94D" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Yellow stripe -->
+    <polygon points="40,90 100,50 160,90 165,115 100,35 35,115" fill="#FFD93D" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Green stripe -->
+    <polygon points="45,65 100,60 155,65 160,90 100,50 40,90" fill="#51CF66" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Blue stripe near tip -->
+    <polygon points="48,45 100,65 152,45 155,65 100,60 45,65" fill="#4DABF7" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Pom-pom on top -->
+    <circle cx="100" cy="14" r="14" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <circle cx="95" cy="8" r="6" fill="#F0F0F0" stroke="none"/>
+    <!-- Fluff rim at bottom -->
+    <ellipse cx="100" cy="162" rx="82" ry="10" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  </g>
+</svg>

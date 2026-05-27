@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .stroke { stroke: #000000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Two straight stalks with round balls on top (antennae) -->
+  <!-- Left antenna -->
+  <path d="M 70 160 L 70 70" stroke="#FFD700" stroke-width="8" stroke-linecap="round" class="stroke"/>
+  <circle cx="70" cy="55" r="18" fill="#00E5FF" class="stroke"/>
+  <circle cx="65" cy="50" r="5" fill="#FFFFFF" opacity="0.6"/>
+  <!-- Right antenna -->
+  <path d="M 130 160 L 130 70" stroke="#FFD700" stroke-width="8" stroke-linecap="round" class="stroke"/>
+  <circle cx="130" cy="55" r="18" fill="#00E5FF" class="stroke"/>
+  <circle cx="125" cy="50" r="5" fill="#FFFFFF" opacity="0.6"/>
+</svg>

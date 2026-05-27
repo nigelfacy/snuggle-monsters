@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Scarf - Wavy wrapped scarf with green/yellow stripes and fringed ends -->
+  <!-- Main wrapped body -->
+  <path d="M20,80 C30,65 60,60 80,70 C95,77 110,75 130,65 C150,55 170,60 180,75 C185,82 180,90 170,95 C155,102 135,100 120,100 C100,100 80,105 60,100 C40,95 25,92 20,85 Z" fill="#51CF66" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Yellow stripe 1 -->
+  <path d="M50,72 C65,66 85,72 100,78" fill="none" stroke="#FFD93D" stroke-width="6" stroke-linecap="round"/>
+  <!-- Yellow stripe 2 -->
+  <path d="M120,68 C140,60 160,65 172,78" fill="none" stroke="#FFD93D" stroke-width="6" stroke-linecap="round"/>
+  <!-- Hanging left end -->
+  <path d="M20,85 C15,100 18,120 22,140 C24,148 28,155 30,160" fill="none" stroke="#51CF66" stroke-width="12" stroke-linecap="round"/>
+  <!-- Left end fringe -->
+  <line x1="22" y1="160" x2="18" y2="178" stroke="#FFD93D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="26" y1="160" x2="24" y2="178" stroke="#FFD93D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="30" y1="160" x2="30" y2="180" stroke="#FFD93D" stroke-width="3" stroke-linecap="round"/>
+  <!-- Hanging right end -->
+  <path d="M170,95 C175,110 172,130 168,148 C166,155 164,160 162,165" fill="none" stroke="#51CF66" stroke-width="12" stroke-linecap="round"/>
+  <!-- Right end fringe -->
+  <line x1="158" y1="165" x2="154" y2="182" stroke="#FFD93D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="162" y1="165" x2="160" y2="183" stroke="#FFD93D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="166" y1="165" x2="166" y2="180" stroke="#FFD93D" stroke-width="3" stroke-linecap="round"/>
+  <!-- Stripe pattern on left hanging piece -->
+  <rect x="17" y="105" width="10" height="8" rx="2" fill="#FFD93D" stroke="#000000" stroke-width="1.5"/>
+  <rect x="17" y="125" width="10" height="8" rx="2" fill="#FFD93D" stroke="#000000" stroke-width="1.5"/>
+  <!-- Stripe pattern on right hanging piece -->
+  <rect x="163" y="115" width="10" height="8" rx="2" fill="#FFD93D" stroke="#000000" stroke-width="1.5"/>
+  <rect x="163" y="135" width="10" height="8" rx="2" fill="#FFD93D" stroke="#000000" stroke-width="1.5"/>
+</svg>

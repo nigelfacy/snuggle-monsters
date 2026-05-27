@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .stroke { stroke: #000000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Two cute flower stalks with flower blooms on top -->
+  <!-- Left flower -->
+  <path d="M 70 170 L 70 90" stroke="#39FF14" stroke-width="6" stroke-linecap="round" class="stroke"/>
+  <!-- Petals -->
+  <circle cx="70" cy="65" r="12" fill="#FF69B4" class="stroke"/>
+  <circle cx="58" cy="58" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="82" cy="58" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="58" cy="72" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="82" cy="72" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="70" cy="65" r="8" fill="#FFD700" class="stroke"/>
+  <!-- Leaf -->
+  <path d="M 70 110 Q 50 100 45 115" fill="#39FF14" class="stroke"/>
+  <!-- Right flower -->
+  <path d="M 130 170 L 130 90" stroke="#39FF14" stroke-width="6" stroke-linecap="round" class="stroke"/>
+  <circle cx="130" cy="65" r="12" fill="#FF69B4" class="stroke"/>
+  <circle cx="118" cy="58" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="142" cy="58" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="118" cy="72" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="142" cy="72" r="10" fill="#FF69B4" class="stroke"/>
+  <circle cx="130" cy="65" r="8" fill="#FFD700" class="stroke"/>
+  <path d="M 130 110 Q 150 100 155 115" fill="#39FF14" class="stroke"/>
+</svg>

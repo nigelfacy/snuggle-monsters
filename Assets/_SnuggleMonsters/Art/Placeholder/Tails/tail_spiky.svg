@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .stroke { stroke: #000000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Tail with friendly spikes along the top edge -->
+  <!-- Main tail body -->
+  <path d="M 40 160 Q 70 155 100 130 Q 130 105 160 100 Q 170 98 175 95" fill="none" stroke="#D2B48C" stroke-width="12" stroke-linecap="round" class="stroke"/>
+  <!-- Triangular spikes along top -->
+  <polygon points="60,135 65,120 75,128" fill="#D2B48C" class="stroke"/>
+  <polygon points="85,118 92,100 102,112" fill="#D2B48C" class="stroke"/>
+  <polygon points="115,108 122,92 132,105" fill="#D2B48C" class="stroke"/>
+  <polygon points="145,100 152,85 160,98" fill="#D2B48C" class="stroke"/>
+</svg>

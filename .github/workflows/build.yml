@@ -1,0 +1,76 @@
+# =============================================================================
+# Snuggle Monsters — GitHub Actions CI/CD
+#
+# When you set up this repo with these secrets, every push to main auto-builds
+# an Android APK. You can download it from the Actions tab on GitHub — from
+# your phone's browser, no computer needed.
+#
+# SECRETS NEEDED (add in GitHub repo → Settings → Secrets and variables → Actions):
+#   1. UNITY_EMAIL     — your Unity account email (free: id.unity.com)
+#   2. UNITY_PASSWORD  — your Unity account password
+#   3. UNITY_SERIAL    — Unity Personal serial (optional, Personal works without)
+#
+# HOW TO TRIGGER:
+#   - Push code to main branch (auto-builds)
+#   - Or go to Actions tab → "Build" → "Run workflow" (manual trigger)
+#   - Wait ~15 min → download APK from Artifacts section
+# =============================================================================
+
+name: Build Snuggle Monsters APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:      # Manual trigger from GitHub web/mobile
+
+jobs:
+  build:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Cache the Unity Library folder (~1GB saved per build)
+      - name: Cache Unity Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ hashFiles('Assets/**', 'Packages/**') }}
+          restore-keys: |
+            Library-
+
+      # 3. Generate all ScriptableObject assets and build
+      - name: Build APK
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          targetPlatform: Android
+          projectPath: .
+          unityVersion: 2022.3.55f1
+          buildMethod: SnuggleMonsters.Editor.CloudBuildScript.BuildApk
+
+      # 4. Upload the APK as a downloadable artifact
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SnuggleMonsters-APK
+          path: build/Android/SnuggleMonsters.apk
+          retention-days: 30
+
+      # 5. Create a summary
+      - name: Build summary
+        run: |
+          echo "## ✅ Snuggle Monsters APK Built!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Download the APK from the **Artifacts** section above." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Install on your phone:" >> $GITHUB_STEP_SUMMARY
+          echo "1. Open this Actions page on your phone's browser" >> $GITHUB_STEP_SUMMARY
+          echo "2. Tap the artifact name to download" >> $GITHUB_STEP_SUMMARY
+          echo "3. Open the downloaded APK → Install" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .stroke { stroke: #000000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Two curly ram-like spiral horns -->
+  <!-- Left horn -->
+  <path d="M 65 140 C 40 140 20 120 30 95 C 40 70 70 70 80 90 C 90 110 75 125 60 115 C 50 108 52 95 60 95" fill="#8B4513" class="stroke"/>
+  <!-- Right horn -->
+  <path d="M 135 140 C 160 140 180 120 170 95 C 160 70 130 70 120 90 C 110 110 125 125 140 115 C 150 108 148 95 140 95" fill="#8B4513" class="stroke"/>
+</svg>

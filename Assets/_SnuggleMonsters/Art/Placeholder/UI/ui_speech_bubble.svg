@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- Rounded speech bubble with tail pointing down-left -->
+  <!-- Bubble body -->
+  <rect x="10" y="10" width="180" height="110" rx="25" ry="25" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <!-- Tail pointing down-left -->
+  <path d="M80,120 L95,120 L70,145 L80,120 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Cover the line between bubble and tail -->
+  <rect x="80" y="118" width="16" height="6" fill="#FFFFFF"/>
+  <!-- Triple dots (ellipsis) placeholder -->
+  <circle cx="80" cy="65" r="8" fill="#CCCCCC" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="100" cy="65" r="8" fill="#CCCCCC" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="120" cy="65" r="8" fill="#CCCCCC" stroke="#000000" stroke-width="2.5"/>
+  <!-- Inner bubble highlight -->
+  <rect x="15" y="15" width="170" height="30" rx="18" ry="18" fill="rgba(0,0,0,0.03)"/>
+</svg>

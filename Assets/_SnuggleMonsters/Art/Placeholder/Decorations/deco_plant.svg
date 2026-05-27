@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Cute potted plant with smiley face on pot -->
+  <!-- Terracotta pot -->
+  <path d="M55,130 L65,185 L135,185 L145,130 Z" fill="#E67E22" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pot rim -->
+  <rect x="48" y="118" width="104" height="16" rx="4" fill="#E67E22" stroke="#000000" stroke-width="3"/>
+  <!-- Smiley face on pot -->
+  <circle cx="83" cy="155" r="3" fill="#000000"/>
+  <circle cx="117" cy="155" r="3" fill="#000000"/>
+  <path d="M88,163 Q100,172 112,163" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Blush cheeks on pot -->
+  <ellipse cx="75" cy="160" rx="5" ry="3" fill="#FF9999" opacity="0.6"/>
+  <ellipse cx="125" cy="160" rx="5" ry="3" fill="#FF9999" opacity="0.6"/>
+  <!-- Soil -->
+  <ellipse cx="100" cy="120" rx="44" ry="8" fill="#8B4513" stroke="#000000" stroke-width="2.5"/>
+  <!-- Stem -->
+  <path d="M100,120 L100,75" fill="none" stroke="#2ECC71" stroke-width="5" stroke-linecap="round"/>
+  <!-- Leaf 1 - Light green, left -->
+  <path d="M100,90 C85,70 65,75 70,60 C75,50 95,65 100,75" fill="#51CF66" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Leaf 2 - Medium green, right -->
+  <path d="M100,80 C115,60 135,65 130,50 C125,40 105,55 100,65" fill="#2ECC71" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Leaf 3 - Dark green, centre -->
+  <path d="M100,78 C100,55 108,42 100,35 C92,42 100,55 100,65" fill="#27AE60" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Leaf veins -->
+  <path d="M88,78 L78,70" fill="none" stroke="#1A8C4A" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M112,72 L122,64" fill="none" stroke="#1A8C4A" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M100,60 L100,48" fill="none" stroke="#1A8C4A" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Pillow Pond - soft blue pond shaped like a pillow -->
+  <!-- Water - pillow-shaped pond -->
+  <path d="M100,15 C150,15 185,45 185,100 C185,155 150,185 100,185 C50,185 15,155 15,100 C15,45 50,15 100,15 Z" fill="#4DABF7" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Lighter inner water area -->
+  <path d="M100,30 C140,30 168,55 168,100 C168,145 140,170 100,170 C60,170 32,145 32,100 C32,55 60,30 100,30 Z" fill="#74C0FC" stroke="none"/>
+  <!-- Cloud-like water ripples -->
+  <path d="M35,60 C40,55 50,55 55,60 C60,55 70,55 75,60 C80,55 85,58 82,62 L38,62 C35,62 33,64 35,60 Z" fill="#A5D8FF" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M120,140 C125,135 135,135 140,140 C145,135 155,135 160,140 C165,135 170,138 167,142 L123,142 C120,142 118,144 120,140 Z" fill="#A5D8FF" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M50,140 C55,136 63,136 68,140 C73,136 81,136 86,140" fill="none" stroke="#A5D8FF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Lily pad in centre -->
+  <ellipse cx="100" cy="100" rx="35" ry="20" fill="#51CF66" stroke="#000000" stroke-width="3"/>
+  <!-- Lily pad notch -->
+  <path d="M100,100 L110,85 L120,100" fill="none" stroke="#51CF66" stroke-width="2"/>
+  <line x1="100" y1="100" x2="120" y2="100" stroke="#000000" stroke-width="2"/>
+  <!-- Lily pad veins -->
+  <path d="M80,100 L100,100" fill="none" stroke="#2ECC71" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M100,92 L100,108" fill="none" stroke="#2ECC71" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M100,100 L110,95" fill="none" stroke="#2ECC71" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Tiny sleeping mouse on lily pad -->
+  <!-- Mouse body -->
+  <ellipse cx="100" cy="95" rx="10" ry="7" fill="#D4A574" stroke="#000000" stroke-width="2"/>
+  <!-- Mouse head -->
+  <circle cx="100" cy="88" r="6" fill="#D4A574" stroke="#000000" stroke-width="2"/>
+  <!-- Mouse ears -->
+  <circle cx="95" cy="82" r="4" fill="#D4A574" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="105" cy="82" r="4" fill="#D4A574" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="95" cy="82" r="2" fill="#FFB8C6" stroke="none"/>
+  <circle cx="105" cy="82" r="2" fill="#FFB8C6" stroke="none"/>
+  <!-- Closed eyes -->
+  <path d="M97,87 Q98,85 100,87" fill="none" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M100,87 Q102,85 103,87" fill="none" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Tiny nose -->
+  <circle cx="100" cy="89" r="1" fill="#FF9999" stroke="none"/>
+  <!-- Mouse tail -->
+  <path d="M100,101 C95,105 88,108 85,112" fill="none" stroke="#D4A574" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Cattails on the side -->
+  <!-- Left cattail -->
+  <path d="M25,140 L25,80" fill="none" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="25" cy="75" rx="4" ry="12" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+  <!-- Right cattail -->
+  <path d="M175,145 L175,85" fill="none" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="175" cy="80" rx="4" ry="12" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+  <!-- Cattail leaves -->
+  <path d="M25,100 C15,90 10,95 12,80" fill="none" stroke="#2ECC71" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M175,105 C185,95 190,100 188,85" fill="none" stroke="#2ECC71" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,19 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Other
+*.apk
+*.aab
+*.unitypackage
+.DS_Store
+Thumbs.db
+*.csproj
+*.sln
+*.user
+*.userprefs

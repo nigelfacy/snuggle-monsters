@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 5-pointed golden star icon with shiny highlight -->
+  <!-- Outer glow -->
+  <circle cx="100" cy="100" r="85" fill="#FFD700" opacity="0.15"/>
+  <circle cx="100" cy="100" r="75" fill="#FFD700" opacity="0.1"/>
+  <!-- Star shape -->
+  <polygon points="100,10 120,60 175,68 135,105 148,160 100,133 52,160 65,105 25,68 80,60" fill="#FFD700" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Inner star highlight (shiny) -->
+  <polygon points="100,25 115,62 155,68 126,96 135,140 100,120 65,140 74,96 45,68 85,62" fill="#FFF3BF" stroke="none"/>
+  <!-- Centre shine -->
+  <ellipse cx="88" cy="75" rx="18" ry="10" fill="rgba(255,255,255,0.5)" transform="rotate(-20,88,75)"/>
+  <!-- Sparkle dots -->
+  <circle cx="50" cy="45" r="3" fill="#FFD700" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="150" cy="40" r="2.5" fill="#FFD700" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="45" cy="140" r="2.5" fill="#FFD700" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="155" cy="145" r="3" fill="#FFD700" stroke="#000000" stroke-width="1.5"/>
+  <!-- Tiny star sparkles -->
+  <polygon points="50,43 52,47 57,47 53,50 55,55 50,52 45,55 47,50 43,47 48,47" fill="#FFD700" stroke="#000000" stroke-width="1"/>
+  <polygon points="155,140 156,143 160,143 157,145 158,149 155,147 152,149 153,145 150,143 154,143" fill="#FFD700" stroke="#000000" stroke-width="1"/>
+  <!-- Outline correction for star points -->
+  <circle cx="100" cy="10" r="1.5" fill="#FFD700"/>
+  <circle cx="175" cy="68" r="1.5" fill="#FFD700"/>
+  <circle cx="148" cy="160" r="1.5" fill="#FFD700"/>
+  <circle cx="52" cy="160" r="1.5" fill="#FFD700"/>
+  <circle cx="25" cy="68" r="1.5" fill="#FFD700"/>
+</svg>
